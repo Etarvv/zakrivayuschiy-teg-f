@@ -1,1 +1,17 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+      --bg-gradient: repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+            repeating-linear-gradient(0.5turn, #d3d3d3 0 2px, transparent 2px 4px),
+            repeating-linear-gradient(#e7e7e7 0 0.01%, #1a1a1a);
+      --bg-main-color: #ffffff;
+      --bg-side-color: #000000;
+      --inline-clamp: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+      --title-clamp: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+      --description-clamp: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+      --base-font: "Inter", sans-serif;
+      --side-font: "PressStart2P", sans-serif;
+      --min-size: 410;
+      --max-size: 715;
+      --font-mini: 14px;
+      --heart-animation-color: #ff0000;
+}
