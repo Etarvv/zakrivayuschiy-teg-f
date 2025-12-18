@@ -26,7 +26,7 @@
 /* ШАПКА */
 
 .header__inline {
-      inline-size: var(--inline-clamp);   
+      inline-size: var(--inline-clamp);
 }
 
 .header {
@@ -385,11 +385,11 @@ dialog::backdrop {
 @media (max-width: 375px) {
       .header {
             padding-block-start: 7.5rem;
-            block-size: 327px;
+            padding-block-end: 7.6rem;
       }
 
       .main {
-            padding-block-start: 6.4rem;
+            padding-block-start: 6.3rem;
       }
 
       .card__title {
